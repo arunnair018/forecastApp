@@ -8,15 +8,16 @@ const Forecast = (props) => {
 
   // returns JSX
   return (
-    <div className='card' style={{ width: "18rem" }}>
+    <div className={`card`} style={{ width: "18rem" }}>
+      <div className={weatherObj.weather}>
       <div className='card-body'>
         <h5 className='card-title'>{weatherObj.date}</h5>
         <p className='card-text'>
-          {weatherObj.weather} <i class={weatherObj.weather_icon}></i>
+          {weatherObj.weather} <i className={weatherObj.weather_icon}></i>
         </p>
       </div>
-      <ul class='list-group list-group-flush'>
-        <li class='list-group-item'>
+      <ul className='list-group list-group-flush'>
+        <li className='list-group-item'>
           <b>High Temperature: </b>
           {weatherObj.high} &#8451;
         </li>
@@ -43,6 +44,7 @@ const Forecast = (props) => {
           Lat: <span>{weatherObj.geo.lat}</span>, Lon:{" "}
           <span>{weatherObj.geo.lon}</span>
         </p>
+        </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const Jumbo = (props) => {
       <h4 className=''>{`${day} Weather`}</h4> in &nbsp;
       <b>{props.info.name}</b>
       <h1 className='display-6'>
-        {weather} <i className={weatherObj.weather_icon}></i>
+        {weatherObj.weather} <i className={weatherObj.weather_icon}></i>
       </h1>
       <hr className='my-4' />
       <p>

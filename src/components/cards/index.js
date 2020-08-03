@@ -74,7 +74,7 @@ class Cards extends Component {
     return (
       <div>
         <nav className='navbar navbar-expand-sm bg-dark navbar-dark'>
-          <span class='navbar-brand'>{info.name}</span>
+          <span className='navbar-brand'>{info.name}</span>
           <form className='form-inline ml-auto'>
             <input
               className='form-control mr-sm-2'

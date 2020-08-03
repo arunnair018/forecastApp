@@ -10,7 +10,7 @@ export const getWeather = (arr) => {
   if (arr.includes("Rain")) {
     return ["Rainy", "wi wi-rain"];
   }
-  if (arr.includes("Cloud")) {
+  if (arr.includes("Clouds")) {
     return ["Cloudy", "wi wi-cloudy"];
   }
   return ["Sunny", "wi wi-day-sunny"];
@@ -19,6 +19,7 @@ export const getWeather = (arr) => {
 // function to process raw data to weather object
 export const weather = (data, info) => {
   let weatherarr = data.map((item) => item.weather[0].main);
+  console.log(weatherarr)
   let [weather, weather_icon] = getWeather(weatherarr);
   let low = (
     data.reduce((accum, item) => accum + item.main.temp_min, 0) / 8

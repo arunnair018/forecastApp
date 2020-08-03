@@ -14,5 +14,3 @@ A webapp to show 5 day weather forecast
   - run `npm install` to install dependencies.
   - create .env file and write `REACT_APP_APIKEY=<YOUR API KEY>` in it.
   - run `npm start` to start the development server.
-
-## Live demo

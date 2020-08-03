@@ -4,8 +4,8 @@ A webapp to show 5 day weather forecast
 
 ## Routes
 
-`/` : display 5 day forecast
-`/<city>/<day>` : displays forecast for city on that day of week (limited to 5 day forecast deu to free subscription of openweather.org)
+- `/` : display 5 day forecast  
+- `/<city>/<day>` : displays forecast for city on that day of week (limited to 5 day forecast deu to free subscription of openweather.org)
 
 ## Installation
 

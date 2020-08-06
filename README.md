@@ -1,6 +1,6 @@
 # GreyQuest Assignment
 
-A webapp to show 5 day weather forecast
+A webapp to show 5 day weather forecast. Used [OpenWeather](https://openweathermap.org/) a third party api to get forecast data.
 
 ## Routes
 
